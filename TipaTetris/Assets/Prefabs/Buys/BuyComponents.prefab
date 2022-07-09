@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8859793408782214265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8859793408782214267}
+  - component: {fileID: 8859793408782214266}
+  m_Layer: 0
+  m_Name: BuyComponents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8859793408782214267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8859793408782214265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.810297, y: 15.224823, z: -12.725054}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8859793408782214266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8859793408782214265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7959141f62af1949b0ad0df11644cf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Colors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 0, b: 0.39607844, a: 1}
+  - {r: 1, g: 0, b: 0.6627451, a: 1}
+  - {r: 0.043137256, g: 1, b: 0.003921569, a: 1}
+  - {r: 0.003921569, g: 0.11764706, b: 0.99607843, a: 1}
+  - {r: 0.99607843, g: 0.15686275, b: 0.63529414, a: 1}
+  - {r: 0.3647059, g: 0.4627451, b: 0.79607844, a: 1}
+  - {r: 0.20392157, g: 0.7882353, b: 0.14117648, a: 1}
+  - {r: 0.93333334, g: 0.50980395, b: 0.93333334, a: 1}
+  - {r: 0.827451, g: 0.3254902, b: 0.22352941, a: 1}
+  - {r: 1, g: 0.827451, b: 0.37254903, a: 1}
+  - {r: 0.4509804, g: 0.4, b: 0.7411765, a: 1}
+  - {r: 0.99215686, g: 0.99607843, b: 0.007843138, a: 1}
+  - {r: 0.99607843, g: 0, b: 0, a: 1}
+  LocationSprite:
+  - {fileID: 21300000, guid: f45749377ec005147ab52459720c291b, type: 3}
+  - {fileID: -8045083832609375867, guid: 3d5497f4c5bc32b4a9862b45a3777e21, type: 3}
+  Items:
+  - {fileID: 2844385837360618435, guid: 7c0bc275378188d4ba513fcac2ff0025, type: 3}
+  - {fileID: 6882587809324536587, guid: d7de938db57a31d4aa33530313510353, type: 3}
+  LastItems:
+  - {fileID: 6569601209120297702, guid: 47a541dd4a7b4144491684eedbc47b80, type: 3}
+  - {fileID: 2281086591121792684, guid: afeed2dbfc54eff43bc68432fa5d17a9, type: 3}
+  ColorPrice: 50
+  LocationPrice: 500
+  ColorADCount: 2
+  LocationADCount: 10
